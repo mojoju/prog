@@ -7,6 +7,7 @@ namespace proggy
         static void Main(string[] args)
         {
             string temp;
+            int num;
 
             Console.WriteLine("Pick a colour! Blue, Green, Pink, Yellow");
             temp = Console.ReadLine();
@@ -22,10 +23,21 @@ namespace proggy
 
             }
             else if (temp = "Pink"){
-
-
+                
+                Console.WriteLine("Please select either a 3 , 4 , 7 , 8");
+                break;
             }
-            else if (temp = "Yellow")
+            else if (temp = "Yellow") {
+                
+                Console.WriteLine("Please select either a 1 , 2 , 5 , 6");
+                break;
+            }
+            else {
+                Console.WriteLine("Please select a valid answer");
+                temp = Console.ReadLine();
+            }
+
+
 
 
 
