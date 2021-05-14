@@ -3,9 +3,9 @@
 namespace proggy
 {
     class Program
-    {
-        static void Main(string[] args)
+    {        static void Main(string[] args)
         {
+
             string temp;
             int num;
 
@@ -42,6 +42,7 @@ namespace proggy
 
 
         } (while();)
+
 
         }
     }
